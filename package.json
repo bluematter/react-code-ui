@@ -5,6 +5,8 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "jsnext:main": "dist/index.esm.js",
+  "types": "dist/types.d.ts",
+  "typings": "dist/index.d.ts",
   "repository": "https://github.com/bluematter/react-code-ui.git",
   "author": "bluematter <michael@motionbox.io>",
   "license": "MIT",
