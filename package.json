@@ -11,6 +11,9 @@
   "author": "bluematter <michael@motionbox.io>",
   "license": "MIT",
   "private": false,
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest --env=jsdom",
     "clean": "rimraf dist",
