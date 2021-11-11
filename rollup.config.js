@@ -7,7 +7,7 @@ import pkg from "./package.json";
 const PLUGINS = [
   css(),
   ts({
-    tsconfigOverride: { exclude: ["**/*.test.ts"] },
+    tsconfigOverride: { exclude: ["**/__tests"] },
   }),
   babel({
     extensions: [".ts", ".js", ".tsx", ".jsx"],
