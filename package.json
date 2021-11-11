@@ -1,6 +1,6 @@
 {
   "name": "react-code-ui",
-  "version": "0.0.5",
+  "version": "0.0.4-beta-0",
   "description": "A react code ui that has animated typing similar to Stripe.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
