@@ -1,0 +1,67 @@
+.code-editor {
+  border-radius: 12px;
+  background: #0c2e4e;
+  overflow: auto;
+}
+
+pre {
+  display: flex;
+  font: inherit;
+  color: #fff;
+  height: 100%;
+}
+
+.line-numbers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: sticky;
+  top: 0;
+  left: 0;
+  min-width: 38px;
+  text-align: right;
+  background-color: #0c2e4e;
+  color: #55718d;
+  z-index: 1;
+  padding: 1rem 0;
+  min-height: 100%;
+  user-select: none;
+}
+
+.line-numbers span {
+  padding: 0 6px;
+}
+
+.typing-area {
+  padding: 1rem;
+  min-height: 150px;
+}
+
+.token.keyword {
+  color: #8095ff;
+}
+
+.token.function {
+  color: #00d4ff;
+}
+
+.token.string {
+  color: #ffa956;
+}
+
+.token.array {
+  color: #fff;
+}
+
+.cusor-style {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+
+.bar {
+  width: 2px;
+  height: 1.25rem;
+  background-color: #fff;
+  animation: 0s ease 0s 1 normal none running none;
+}
